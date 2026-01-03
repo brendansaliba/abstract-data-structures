@@ -134,3 +134,8 @@ class DoublyLinkedList:
                     print('Item not found in list')
         if deleted:
             self.size -= 1
+
+    def clear(self):
+        self.head = None
+        self.tail = None
+        self.size = 0
