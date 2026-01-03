@@ -125,3 +125,9 @@ class SinglyLinkedList:
         self.head = None
         self.tail = None
         self.size = 0
+
+    def is_empty(self):
+        return True if self.head is None else False
+    
+if __name__ == "__main__":
+    l = SinglyLinkedList()
