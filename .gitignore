@@ -1,5 +1,8 @@
 anaconda_projects
 venv
+.pytest_cache
+__pycache__
+**/__pycache__
 
 # Folder view configuration files
 .DS_Store
